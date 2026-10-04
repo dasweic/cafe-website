@@ -1,0 +1,23 @@
+# Web Framework & Server
+fastapi[standard]>=0.110.0
+
+# Database & ORM
+sqlalchemy>=2.0.0
+alembic>=1.13.0
+psycopg[binary]>=3.1.18
+
+# Validation & Settings
+pydantic[email]>=2.6.0
+pydantic-settings>=2.2.0
+
+# Security & Authentication
+pyjwt>=2.8.0
+passlib[argon2]>=1.7.4
+python-multipart>=0.0.9
+
+# External Services
+cloudinary>=1.39.0
+
+# Testing
+pytest>=8.0.0
+httpx>=0.27.0
