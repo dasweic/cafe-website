@@ -28,7 +28,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${playfair.variable}`}>
-        {/* We wrap the entire app in our Providers so Auth state is accessible globally */}
         <Providers>
           {children}
         </Providers>
